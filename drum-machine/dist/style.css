@@ -1,0 +1,22 @@
+.dis {
+justify-content: center;
+color: black;
+display: flex;
+}
+.center {
+justify-content: center;
+color: black;
+display: flex;
+}
+.grid {
+flex-direction: row;
+justify-content: center;
+display: flex;
+}
+.drum-pad {
+box-shadow: black 3px 3px 5px;
+padding-right: 15px;
+padding-left: 15px;
+width: 5%;
+height: 50px;
+}
