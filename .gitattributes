@@ -1,4 +1,4 @@
 * linguist-vendored
 *.js linguist-vendored=false
-*.hmtl5 linguist-vendored=false
+*.hmtl linguist-vendored=true
 *.css linguist-vendored=false
