@@ -1,0 +1,127 @@
+.fundo {
+width: 50%;
+height: 50%;
+justify-content: center;
+background-color: #CAF0F8;
+align-items: center;
+padding: 50px;
+position: absolute;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+border-radius: 10px;
+}
+
+.counter {
+justify-content: center;
+position: absolute;
+top: 160px; 
+background-color: white;
+align-text: center;
+align-content: center;
+display: flex;
+width: 20%;
+height: 10%;
+right: 0;
+left: 0;
+margin: auto;
+border-radius: 30px;
+padding: 10px;
+vertical-align: middle;
+font-size: 25px;
+}
+
+.session {
+justify-content: center;
+position: absolute;
+top: 140px;
+left: 365px;
+align-text: center;
+align-content: center;
+display: flex;
+margin: auto;
+vertical-align: middle;
+font-size: 17px; 
+}
+
+.leftbot {
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 215px;
+left: 0;
+right: 0;
+margin: auto;
+}
+
+.rightbot {
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 250px;
+left: 0;
+right: 0;
+margin: auto;
+}
+
+.buttons{
+background-color: #90E0EF;
+border-radius: 3px;
+font-size: 15px;
+}
+
+.topleft {
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 40px;
+left: 0;
+right: 0;
+margin: auto; 
+}
+
+.topright {
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 100px;
+left: 0;
+right: 0;
+margin: auto; 
+}
+
+.topbreak {
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 20px;
+left: 0;
+right: 0;
+margin: auto;
+font-size: 18px;
+}
+
+.topsession {
+  justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: absolute;
+top: 90px;
+left: 0;
+right: 0;
+margin: auto;
+font-size: 18px;
+}
