@@ -1,0 +1,75 @@
+.calcgrid {
+border: 1px solid black;
+position: absolute;
+top: 30%;
+left: 42%;
+right: 0;
+bottom: 20%;
+background-color: #E6E6FA;
+width: 200px;
+height: 255px;
+justify-content: center;
+align-items: center;
+}
+
+.inputstyle{
+justify-content: right;
+top: 3%;
+left: 2px;
+height: 25px;
+position: absolute;
+background-color: white;
+}
+
+.btngrid {
+flex-direction: row;
+justify-content: center;
+top: 12%;
+left: 20px;
+margin-top: 20px;
+position: absolute;
+}
+
+.btngrid2 {
+flex-direction: row;
+justify-content: center;
+top: 33%;
+left: 20px;
+margin-top: 20px;
+position: absolute;
+}
+
+.btngrid3 {
+flex-direction: row;
+justify-content: center;
+left: 20px;
+top: 53%;
+margin-top: 20px;
+position: absolute;
+}
+
+.btngrid4 {
+flex-direction: row;
+justify-content: center;
+left: 20px;
+top: 185px;
+margin-top: 20px;
+position: absolute;
+}
+
+.btnresults {
+display: flex;
+position: absolute;
+flex-direction: column;
+left: 150px;
+top: 47px;
+bottom: 0;
+right: 0;
+width: 35px;
+}
+
+.btns {
+height: 40px;
+border-radius: 30%;
+background-color: #F4E6FA;
+}
