@@ -73,3 +73,7 @@ height: 40px;
 border-radius: 30%;
 background-color: #F4E6FA;
 }
+
+.btns:hover {
+background-color: #E76f51;
+}
