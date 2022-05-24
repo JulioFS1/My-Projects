@@ -1,6 +1,4 @@
-const btnstyle = {display: "flex", height: "25px", marginTop: "5px", fontSize: "20px", textAlign: "center", justifyContent: "center", backgroundColor: "#E5F3FA"};
 const btnclear = {height: "29px", width:"5px", marginTop: "9px", fontSize: "10px", textAlign: "center", justifyContent: "center", backgroundColor: "#E5F3FA", display: "flex", position: "absolute", left: "185px"};
-const btnequal = {height: "45px", marginTop: "5px", fontSize: "20px", textAlign: "center", justifyContent: "center", backgroundColor: "#F4E6FA"};
 const btnnum = {fontSize: "20px", width:"35px", marginLeft: "5px"};
 
 const sumops = ['/', '*', '-'];
@@ -265,12 +263,12 @@ render() {
       <button id="nine" onClick={this.nine} className="btns" style={btnnum}>9</button>
       </div>
       <div className="btnresults">
-      <button id="decimal" onClick={this.dec} style={btnstyle}>.</button>
-      <button id="add" onClick={this.sum} style={btnstyle}>+</button>
-      <button id="subtract" onClick={this.sub} style={btnstyle}>-</button>
-      <button id="divide" onClick={this.div} style={btnstyle}>/</button>
-      <button id="multiply" onClick={this.multi} style={btnstyle}>*</button>
-      <button id="equals" onClick={this.eq} style={btnequal}>=</button>
+      <button className="btnstyle" id="decimal" onClick={this.dec}>.</button>
+      <button className="btnstyle" id="add" onClick={this.sum}>+</button>
+      <button className="btnstyle" id="subtract" onClick={this.sub}>-</button>
+      <button className="btnstyle" id="divide" onClick={this.div}>/</button>
+      <button className="btnstyle" id="multiply" onClick={this.multi}>*</button>
+      <button id="equals" className="btnequal" onClick={this.eq}>=</button>
     </div>
      </div>
   );
