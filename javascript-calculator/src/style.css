@@ -74,6 +74,29 @@ border-radius: 30%;
 background-color: #F4E6FA;
 }
 
-.btns:hover {
+.btnequal {
+height: 45px;
+margin-top: 5px;
+font-size: 20px; 
+text-align: center; 
+justify-content: center; 
+background-color: #F4E6FA;
+}
+
+.btnstyle {
+display: flex;
+height: 25px; 
+margin-top: 5px; 
+font-size: 20px; 
+textAlign: center;
+justify-content: center; 
+background-color: #E5F3FA;
+}
+
+.btns:hover, .btnequal:hover, .btnstyle:hover {
 background-color: #E76f51;
+}
+
+.btns:active, .btnequal:active, .btnstyle:active {
+ background-color: #D62828;
 }
