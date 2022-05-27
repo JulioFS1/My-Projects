@@ -6,11 +6,12 @@
  justify-content: center;
  align-items: center; 
  align-content: center;
- top: 120px;
+ top: 140px;
  position: absolute;
  left: 10px;
  right: 10px;
  display: flex;
+margin: auto;
 }
 .authortext {
 top: 53%;
